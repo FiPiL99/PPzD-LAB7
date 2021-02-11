@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{10d59f6a-59c9-4e3e-a225-63c337fa0296}">
+		<property name="name">
+			<value>Circkets</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{595efcd5-48fd-4b3e-b92b-012e4d97acbb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1ffddb01-4ba2-484f-a9a3-e84978bb199c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6ddb3b79-963a-4597-b1df-e6d901f89b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{595efcd5-48fd-4b3e-b92b-012e4d97acbb}">
+		<relationship name="effects">
+			<destination>{41654158-f547-4e50-97e0-7994e669bc60}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1ffddb01-4ba2-484f-a9a3-e84978bb199c}" />
+	<object class="MixerBusFader" id="{41654158-f547-4e50-97e0-7994e669bc60}" />
+</objects>

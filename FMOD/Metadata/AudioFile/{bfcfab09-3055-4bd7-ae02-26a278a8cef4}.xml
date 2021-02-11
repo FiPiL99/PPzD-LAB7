@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bfcfab09-3055-4bd7-ae02-26a278a8cef4}">
+		<property name="assetPath">
+			<value>grass6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38158333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{56de75dd-3135-44c9-ae2d-0e25e8fa11af}</destination>
+		</relationship>
+	</object>
+</objects>

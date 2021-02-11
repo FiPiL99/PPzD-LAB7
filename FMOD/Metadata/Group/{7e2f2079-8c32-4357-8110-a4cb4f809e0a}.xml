@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{7e2f2079-8c32-4357-8110-a4cb4f809e0a}">
+		<property name="name">
+			<value>Wind</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c445f3b1-7daa-4af9-a2d1-4b2d3aee6f13}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d0d1c523-2de9-4257-ab75-91c018faf954}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6ddb3b79-963a-4597-b1df-e6d901f89b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c445f3b1-7daa-4af9-a2d1-4b2d3aee6f13}">
+		<relationship name="effects">
+			<destination>{7e1696a8-22ed-48ca-bd1c-c048b5bb870a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d0d1c523-2de9-4257-ab75-91c018faf954}" />
+	<object class="MixerBusFader" id="{7e1696a8-22ed-48ca-bd1c-c048b5bb870a}" />
+</objects>
